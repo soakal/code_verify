@@ -1,0 +1,4 @@
+.openrouter_key
+__pycache__/
+*.pyc
+*.bak
