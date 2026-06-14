@@ -1,4 +1,5 @@
-.openrouter_key
 __pycache__/
 *.pyc
 *.bak
+.openrouter_key
+.anthropic_key

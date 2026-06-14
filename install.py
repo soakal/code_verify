@@ -67,9 +67,9 @@ def main():
     copy_command(REPO_DIR)
 
     print()
-    print("Done. Next step:")
-    print(f'  Now run: "{sys.executable}" "{DEST_DIR / "encrypt_key.py"}"')
-    print("Then verify a file with:  /codex-verify myfile.py")
+    print("Done. No API key needed — auth is via Claude Code.")
+    print("Make sure you are logged in:  claude login")
+    print("Then verify a file with:      /codex-verify myfile.py")
 
 
 if __name__ == "__main__":
